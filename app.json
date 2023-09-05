@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "calculator4",
-    "slug": "calculator4",
+    "name": "calculator",
+    "slug": "calculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,6 +18,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "colTheDeveloper.calculator",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b9e271c1-45a7-42ba-a0ae-3f3b4aa5a616"
+      }
     }
   }
 }
